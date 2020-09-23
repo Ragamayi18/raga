@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="driverfactory.Driverscript">
+        <methods>
+          <include name="startTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- driverfactory.Driverscript -->
+      <class name="driverfactory.Datadriven">
+        <methods>
+          <include name="adminlogin"/>
+          <include name="tearDown"/>
+          <include name="addEmployee"/>
+        </methods>
+      </class> <!-- driverfactory.Datadriven -->
+      <class name="driverfactory.Testscript">
+        <methods>
+          <include name="setUp"/>
+          <include name="usercreation"/>
+          <include name="tearDown"/>
+          <include name="generatereport"/>
+        </methods>
+      </class> <!-- driverfactory.Testscript -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

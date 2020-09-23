@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ragamayi]">
+  <parameter name="browser" value="firefox"/>
+  <test name="chrometest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="feb6.grid">
+        <methods>
+          <include name="login"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- feb6.grid -->
+    </classes>
+  </test> <!-- chrometest(failed) -->
+  <test name="firefoxtest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="feb6.grid">
+        <methods>
+          <include name="login"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- feb6.grid -->
+    </classes>
+  </test> <!-- firefoxtest(failed) -->
+</suite> <!-- Failed suite [ragamayi] -->

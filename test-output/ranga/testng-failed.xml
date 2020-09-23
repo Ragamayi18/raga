@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ranga]">
+  <parameter name="browser" value="firefox"/>
+  <test name="firefoxtest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="feb6.drivercrossbrowser">
+        <methods>
+          <include name="tearDown"/>
+          <include name="login"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- feb6.drivercrossbrowser -->
+    </classes>
+  </test> <!-- firefoxtest(failed) -->
+</suite> <!-- Failed suite [ranga] -->
